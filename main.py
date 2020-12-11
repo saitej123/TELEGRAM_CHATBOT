@@ -51,7 +51,7 @@ def detect_room(update, context):
 
 def main():
     load_model()
-    updater = Updater(token="1298160601:AAG-_q_rZTNP2y4XkA58u1hHpwY8SggCo2s", use_context=True)
+    updater = Updater(token="", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help_command))
